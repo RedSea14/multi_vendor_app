@@ -11,15 +11,12 @@ class CartPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: kPrimary,
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(100.h),
-        child: Container(
-          height: 100.h,
-        ),
-      ),
+          preferredSize: Size.fromHeight(130.h),
+          child: Container(
+            height: 130,
+          )),
       body: SafeArea(
-        child: CustomContainer(
-          containerContent: Container(),
-        ),
+        child: CustomContainer(containerContent: Container()),
       ),
     );
   }

@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 String googleApiKey = '';
 
-final kPrimary = const Color(0xFF30b9b2).withOpacity(0.4);
+const kPrimary = Color(0xFF30b9b2);
 const kPrimaryLight = Color(0xFF40F3EA);
 const kSecondary = Color(0xffffa44f);
 const kSecondaryLight = Color(0xFFffe5db);
@@ -18,6 +18,6 @@ const kRed = Color(0xffe81e4d);
 const kOffWhite = Color(0xffF3F4F8);
 
 double height = 825.h;
-double width = 375.w;
+double width = 360.w;
 
 const String appBaseUrl = "http://localhost:6003";

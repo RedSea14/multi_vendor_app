@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:get/get.dart';
 import 'package:multi_vendor_app/common/app_style.dart';
 import 'package:multi_vendor_app/common/reusable_text.dart';
 import 'package:multi_vendor_app/constants/constants.dart';
-import 'package:multi_vendor_app/controller/catefory_controller.dart';
+import 'package:multi_vendor_app/controllers/category_controller.dart';
 import 'package:multi_vendor_app/views/categories/all_categories.dart';
+import 'package:get/get.dart';
 
 class CategoryWidget extends StatelessWidget {
   CategoryWidget({

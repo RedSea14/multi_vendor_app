@@ -1,7 +1,9 @@
+// ignore_for_file: prefer_final_fields
+
 import 'package:get/get.dart';
 
 class CategoryController extends GetxController {
-  final RxString _category = ''.obs;
+  RxString _category = ''.obs;
 
   String get categoryValue => _category.value;
 
@@ -9,7 +11,7 @@ class CategoryController extends GetxController {
     _category.value = value;
   }
 
-  final RxString _title = ''.obs;
+  RxString _title = ''.obs;
 
   String get titleValue => _title.value;
 

@@ -10,7 +10,7 @@ class CustomAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: 8.w, vertical: 6.h),
+      padding: EdgeInsets.symmetric(horizontal: 12.w, vertical: 6.h),
       height: 110.h,
       width: width,
       color: kOffWhite,
@@ -39,7 +39,7 @@ class CustomAppBar extends StatelessWidget {
                           text: "Deliver to",
                           style: appStyle(13, kSecondary, FontWeight.w600)),
                       SizedBox(
-                        width: width * 0.55,
+                        width: width * 0.65,
                         child: Text("16768 21st Ave N, Plymouth, MN 55447",
                             overflow: TextOverflow.ellipsis,
                             style: appStyle(11, kGrayLight, FontWeight.normal)),

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:get/get.dart';
 import 'package:multi_vendor_app/common/app_style.dart';
 import 'package:multi_vendor_app/common/reusable_text.dart';
 import 'package:multi_vendor_app/constants/constants.dart';
 import 'package:multi_vendor_app/views/categories/category_page.dart';
+import 'package:get/get.dart';
 
 class CategoryTile extends StatelessWidget {
   CategoryTile({
@@ -20,7 +20,7 @@ class CategoryTile extends StatelessWidget {
       onTap: () {
         Get.to(() => const CategoryPage(),
             transition: Transition.fadeIn,
-            duration: const Duration(milliseconds: 200));
+            duration: const Duration(milliseconds: 900));
       },
       leading: CircleAvatar(
         radius: 18.r,
