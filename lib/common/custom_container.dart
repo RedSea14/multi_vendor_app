@@ -14,17 +14,11 @@ class CustomContainer extends StatelessWidget {
     return SizedBox(
       height: MediaQuery.of(context).size.height * 0.79,
       width: double.infinity,
-      child: ClipRRect(
-        borderRadius: BorderRadius.only(
-          bottomLeft: Radius.circular(30.r),
-          bottomRight: Radius.circular(30.r),
-        ),
-        child: Container(
-          width: width,
-          color: kOffWhite,
-          child: SingleChildScrollView(
-            child: containerContent,
-          ),
+      child: Container(
+        width: width,
+        color: kOffWhite,
+        child: SingleChildScrollView(
+          child: containerContent,
         ),
       ),
     );

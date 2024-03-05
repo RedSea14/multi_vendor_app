@@ -16,6 +16,7 @@ class Heading extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 12.w),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Padding(
             padding: EdgeInsets.only(top: 10.h),

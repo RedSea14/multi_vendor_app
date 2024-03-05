@@ -8,8 +8,9 @@ import 'package:multi_vendor_app/views/home/all_fastest_foods_page.dart';
 import 'package:multi_vendor_app/views/home/all_nearby_restaurants.dart';
 import 'package:multi_vendor_app/views/home/recommendations_page.dart';
 import 'package:multi_vendor_app/views/home/widgets/category_list.dart';
+import 'package:multi_vendor_app/views/home/widgets/food_list.dart';
+import 'package:multi_vendor_app/views/home/widgets/nearby_restaurants_list.dart';
 import 'package:get/get.dart';
-import 'package:multi_vendor_app/constants/constants.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -33,6 +34,7 @@ class HomePage extends StatelessWidget {
                     duration: const Duration(milliseconds: 900));
               },
             ),
+            const NearbyRestaurants(),
             Heading(
               text: "Try Something New",
               onTap: () {
@@ -41,6 +43,7 @@ class HomePage extends StatelessWidget {
                     duration: const Duration(milliseconds: 900));
               },
             ),
+            const FoodsList(),
             Heading(
               text: "Food closer to you",
               onTap: () {
@@ -49,6 +52,7 @@ class HomePage extends StatelessWidget {
                     duration: const Duration(milliseconds: 900));
               },
             ),
+            const FoodsList(),
           ],
         )),
       ),

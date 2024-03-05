@@ -12,7 +12,7 @@ class BackGroundContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: width,
+      width: double.infinity,
       height: height,
       decoration: BoxDecoration(
           color: color,
